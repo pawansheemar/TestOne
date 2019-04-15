@@ -1,0 +1,20 @@
+E:\myRepo\TestOne\TestOne\bin\Debug\TestOne.exe.config
+E:\myRepo\TestOne\TestOne\bin\Debug\TestOne.exe
+E:\myRepo\TestOne\TestOne\bin\Debug\TestOne.pdb
+E:\myRepo\TestOne\TestOne\bin\Debug\WebDriver.dll
+E:\myRepo\TestOne\TestOne\bin\Debug\WebDriver.xml
+E:\myRepo\TestOne\TestOne\obj\Debug\TestOne.csprojAssemblyReference.cache
+E:\myRepo\TestOne\TestOne\obj\Debug\TestOne.csproj.CoreCompileInputs.cache
+E:\myRepo\TestOne\TestOne\obj\Debug\TestOne.csproj.CopyComplete
+E:\myRepo\TestOne\TestOne\obj\Debug\TestOne.exe
+E:\myRepo\TestOne\TestOne\obj\Debug\TestOne.pdb
+E:\Automation testing\TestOne\TestOne\bin\Debug\TestOne.exe.config
+E:\Automation testing\TestOne\TestOne\bin\Debug\TestOne.exe
+E:\Automation testing\TestOne\TestOne\bin\Debug\TestOne.pdb
+E:\Automation testing\TestOne\TestOne\bin\Debug\WebDriver.dll
+E:\Automation testing\TestOne\TestOne\bin\Debug\WebDriver.xml
+E:\Automation testing\TestOne\TestOne\obj\Debug\TestOne.csprojAssemblyReference.cache
+E:\Automation testing\TestOne\TestOne\obj\Debug\TestOne.csproj.CoreCompileInputs.cache
+E:\Automation testing\TestOne\TestOne\obj\Debug\TestOne.csproj.CopyComplete
+E:\Automation testing\TestOne\TestOne\obj\Debug\TestOne.exe
+E:\Automation testing\TestOne\TestOne\obj\Debug\TestOne.pdb
