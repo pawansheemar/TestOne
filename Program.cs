@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
@@ -12,13 +13,20 @@ using TestOne.Pages;
 
 namespace TestOne
 {
+    [TestFixture]
     class Program
     {
         static void Main(string[] args)
 
         {
-        //defining driver
-        CommonDriver.driver = new FirefoxDriver(@"E:\chromedriver\");
+        }
+
+
+       [SetUp]
+        public void setup()
+        {
+            //defining driver
+            CommonDriver.driver = new FirefoxDriver(@"E:\chromedriver\");
 
             // login object and logging in to TurnUp
             LoginPage loginPage = new LoginPage();
@@ -28,15 +36,40 @@ namespace TestOne
             HomePage homePage = new HomePage();
             homePage.NavigateTM();
 
-            //TMPage object and Creating, Editing an record
+        }
+        [Test]
+        public void testCreateTM()
+        {
+            //TMPage object and Creating a record
             TMPage tMPage = new TMPage();
             tMPage.createTM();
+        }
+        [Test]
+        public void testEditTM()
+        {
+            //TMPage object and Editing an record
+            TMPage tMPage = new TMPage();
             tMPage.editTM();
+        }
+        [Test]
+        public void testDeleteTM()
+        {
 
-          
-        } 
+        }
+
+        [TearDown]
+        public void tearDown()
+        {
+            CommonDriver.driver.Close();
+
+        }
+
+
     }
 }
+
+
+
 
 
 
